@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: absolute;
+  bottom: -8px;
+}
+
+.containerTitle {
+  display: flex;
+  gap: 4px;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.wing {
+  width: 80px;
+}
+
+.wingright {
+  width: 80px;
+  transform: scaleX(-1);
+}
+
+.button {
+  width: 180px;
+  height: 40px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #ffe900;
+  border-radius: 8px;
+}
+
+.donation {
+  font-size: 0.75rem;
+  color: lightgray;
+}

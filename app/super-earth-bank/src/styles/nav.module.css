@@ -1,0 +1,16 @@
+.container {
+  width: 90%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listNavigation {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-weight: 500;
+  color: white;
+  font-size: 0.875rem;
+}
